@@ -16,11 +16,15 @@ public:
 
 	ofArduino				m_arduino;
 	ofTrueTypeFont          m_font;
-	bool					m_bSetup;       //is Arduinio initialized yet
+	int					    m_input_val;	// Sensor value
+	bool					m_bSetup;       // Is Arduino initialized yet
 	void setupArduino(const int& _version);
 	void updateArduino();
 	void digitalPinChanged(const int& pinNum);
 	void analogPinChanged(const int& pinNum);
+
+	static const int PIN_ANALOG_INPUT = 5;
+	static const int PIN_PWM_OUTPUT = 9;
 
 	float getIRDistance(int& val);
 

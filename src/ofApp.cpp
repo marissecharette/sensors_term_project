@@ -2,8 +2,6 @@
 #include "ofxXmlSettings.h"
 #include <string>
 
-//aaaaaaa
-
 //--------------------------------------------------------------
 void ofApp::setup() {
 	// Set window size and framerate
@@ -15,7 +13,8 @@ void ofApp::setup() {
 
 	m_arduino.connect(Config::ARDUINO_DEVICE_NAME, Config::ARDUINO_BAUD_RATE);
 
-	m_stretchVal = 0.0f;
+	m_stretchVal = 0.0f;	// Stretch sensor value
+	m_input_val = 0.0f;		// Potentiometer value
 
 	ofAddListener(m_arduino.EInitialized, this, &ofApp::setupArduino);
 
@@ -115,6 +114,24 @@ void ofApp::update() {
 
 //--------------------------------------------------------------
 void ofApp::draw() {
+	// Potentiometer
+	ofBackground(255, 0, 130);
+
+	ofEnableAlphaBlending();
+	ofSetColor(0, 0, 0, 127);
+	ofDrawRectangle(510, 15, 275, 150);
+	ofDisableAlphaBlending();
+
+	ofSetColor(255, 255, 255);
+
+	// Draw sensor input values
+	m_font.drawString("Sensor Value: " + ofToString(m_input_val), 530, 105);
+
+	// remap our flex values (can check on arduino sketch as values will always vary between sensors)
+	float radius = ofMap(m_input_val, 0, 255, 20, 150);
+	ofDrawCircle(640, 400, radius);
+
+	// Other
 	ofPushMatrix();
 	ofSetColor(181, 230, 90);
 	ofDrawRectangle(1000, 950, 3000, 150);
@@ -295,9 +312,13 @@ void ofApp::setupArduino(const int& _version)
 	ofLogNotice() << m_arduino.getFirmwareName();
 	ofLogNotice() << "firmata v" << m_arduino.getMajorFirmwareVersion() << "." << m_arduino.getMinorFirmwareVersion();
 
+	// Stretch sensor
 	m_arduino.sendAnalogPinReporting(Config::PIN_STRETCH_INPUT, ARD_ANALOG);
-
 	m_arduino.sendDigitalPinMode(Config::PIN_RGB_PWM_BLUE_OUTPUT, ARD_PWM);
+
+	// Potentiometer
+	m_arduino.sendAnalogPinReporting(PIN_ANALOG_INPUT, ARD_ANALOG);
+	m_arduino.sendDigitalPinMode(PIN_PWM_OUTPUT, ARD_PWM);
 
 	ofAddListener(m_arduino.EDigitalPinChanged, this, &ofApp::digitalPinChanged);
 	ofAddListener(m_arduino.EAnalogPinChanged, this, &ofApp::analogPinChanged);
@@ -315,6 +336,7 @@ void ofApp::digitalPinChanged(const int& pinNum) {
 void ofApp::analogPinChanged(const int& pinNum) {
 	//std::cout  << "analog pin: " + ofToString(pinNum) + " : " + ofToString(m_arduino.getAnalog(pinNum)) << std::endl;
 
+	// Stretch sensor
 	switch (pinNum) {
 	case Config::PIN_STRETCH_INPUT: {
 		m_stretchVal = m_arduino.getAnalog(pinNum);
@@ -322,6 +344,17 @@ void ofApp::analogPinChanged(const int& pinNum) {
 
 		m_arduino.sendPwm(Config::PIN_RGB_PWM_BLUE_OUTPUT, (int)m_stretchVal);
 	};
+	}
+
+	// Potentiometer
+	if (pinNum == PIN_ANALOG_INPUT) {
+
+		//get analog value
+		m_input_val = m_arduino.getAnalog(pinNum);
+		m_input_val = (int)ofMap(m_input_val, 0, 1023, 0, 255);
+
+		//send out pmw value
+		m_arduino.sendPwm(PIN_PWM_OUTPUT, (int)m_input_val);
 	}
 }
 
