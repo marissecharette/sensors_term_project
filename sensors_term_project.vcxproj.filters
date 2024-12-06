@@ -1,0 +1,288 @@
+<?xml version="1.0"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\main.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="src\ofApp.cpp">
+			<Filter>src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\src\ofxEasyFft.cpp">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\src\ofxFft.cpp">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\src\ofxFftBasic.cpp">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\src\ofxFftw.cpp">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\src\ofxProcessFFT.cpp">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\libs\kiss\kiss_fft.c">
+			<Filter>addons\ofxFft\libs\kiss</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\libs\kiss\kiss_fftr.c">
+			<Filter>addons\ofxFft\libs\kiss</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\BaseEngine.cpp">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\DefaultTheme.cpp">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\EngineGLFW.cpp">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\EngineOpenFrameworks.cpp">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\EngineOpenGLES.cpp">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\Gui.cpp">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\ImHelpers.cpp">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\ofxImGuiLoggerChannel.cpp">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\backends\imgui_impl_glfw.cpp">
+			<Filter>addons\ofxImGui\libs\imgui\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\backends\imgui_impl_glfw_context_support.cpp">
+			<Filter>addons\ofxImGui\libs\imgui\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\backends\imgui_impl_opengl2.cpp">
+			<Filter>addons\ofxImGui\libs\imgui\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\backends\imgui_impl_opengl3.cpp">
+			<Filter>addons\ofxImGui\libs\imgui\backends</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\extras\imgui_stdlib.cpp">
+			<Filter>addons\ofxImGui\libs\imgui\extras</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\src\imgui.cpp">
+			<Filter>addons\ofxImGui\libs\imgui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\src\imgui_demo.cpp">
+			<Filter>addons\ofxImGui\libs\imgui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\src\imgui_draw.cpp">
+			<Filter>addons\ofxImGui\libs\imgui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\src\imgui_tables.cpp">
+			<Filter>addons\ofxImGui\libs\imgui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\src\imgui_widgets.cpp">
+			<Filter>addons\ofxImGui\libs\imgui\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxXmlSettings\src\ofxXmlSettings.cpp">
+			<Filter>addons\ofxXmlSettings\src</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxXmlSettings\libs\tinyxml.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxXmlSettings\libs\tinyxmlerror.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+		<ClCompile Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxXmlSettings\libs\tinyxmlparser.cpp">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClCompile>
+	</ItemGroup>
+	<ItemGroup>
+		<Filter Include="src">
+			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons">
+			<UniqueIdentifier>{60BC3836--355-9-41-F3-B-0B2-EF4D79F870AC}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFft">
+			<UniqueIdentifier>{B00F5B32--845-C-43-34-8-B12-03FD292B6547}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFft\src">
+			<UniqueIdentifier>{B94FD427--49C-4-45-D5-9-AE6-134DC653D64A}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFft\libs">
+			<UniqueIdentifier>{C95C34FE--B73-1-45-D1-8-050-A903C3A721E1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFft\libs\fftw">
+			<UniqueIdentifier>{5659C8C1--8CE-0-46-28-B-45A-EE67AEFB9D4F}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFft\libs\fftw\include">
+			<UniqueIdentifier>{F3490E5D--D3E-B-46-CE-B-0B9-4FCC84F90617}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxFft\libs\kiss">
+			<UniqueIdentifier>{D648A520--573-C-4C-F5-B-DE3-FD120A9E8378}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImGui">
+			<UniqueIdentifier>{5638E341--C1F-3-47-60-A-4DE-A9933276EC2B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImGui\src">
+			<UniqueIdentifier>{FAB5B237--06D-F-40-57-8-51F-A29D94EEAFA1}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImGui\libs">
+			<UniqueIdentifier>{1BEE6613--25C-0-46-BA-8-BB9-603D04242739}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImGui\libs\imgui">
+			<UniqueIdentifier>{9F0A996E--A24-8-43-AD-9-040-BB3DB924AA8C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImGui\libs\imgui\backends">
+			<UniqueIdentifier>{13108D93--12C-D-4C-5E-B-32F-CE6BCDF751C3}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImGui\libs\imgui\extras">
+			<UniqueIdentifier>{18C9F7C7--600-D-4D-EC-8-BE7-14053A6248E6}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxImGui\libs\imgui\src">
+			<UniqueIdentifier>{64F2BB50--391-9-4F-FB-8-DDC-287AAC3FFC2B}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings">
+			<UniqueIdentifier>{52FA4C18--751-5-47-44-8-F87-C59ABABC761C}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings\src">
+			<UniqueIdentifier>{B2A59305--413-E-48-32-9-E42-E63A364CD50E}</UniqueIdentifier>
+		</Filter>
+		<Filter Include="addons\ofxXmlSettings\libs">
+			<UniqueIdentifier>{BBC182BF--B8D-9-4D-B4-9-9B7-E5B1374DFF47}</UniqueIdentifier>
+		</Filter>
+	</ItemGroup>
+	<ItemGroup>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\Config.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="src\ofApp.h">
+			<Filter>src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\src\ofxEasyFft.h">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\src\ofxFft.h">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\src\ofxFftBasic.h">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\src\ofxFftw.h">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\src\ofxProcessFFT.h">
+			<Filter>addons\ofxFft\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\libs\fftw\include\fftw3.h">
+			<Filter>addons\ofxFft\libs\fftw\include</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\libs\kiss\kiss_fft.h">
+			<Filter>addons\ofxFft\libs\kiss</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\libs\kiss\kiss_fftr.h">
+			<Filter>addons\ofxFft\libs\kiss</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxFft\libs\kiss\_kiss_fft_guts.h">
+			<Filter>addons\ofxFft\libs\kiss</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\BaseEngine.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\BaseTheme.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\DefaultTheme.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\EngineGLFW.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\EngineOpenFrameworks.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\EngineOpenGLES.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\EngineVk.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\gles1CompatibilityHacks.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\glfwCompatibilityHacks.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\Gui.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\imconfig.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\ImHelpers.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\LinkedList.hpp">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\ofxImGui.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\ofxImGuiConstants.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\src\ofxImGuiLoggerChannel.h">
+			<Filter>addons\ofxImGui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\backends\imgui_impl_glfw.h">
+			<Filter>addons\ofxImGui\libs\imgui\backends</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\backends\imgui_impl_glfw_context_support.h">
+			<Filter>addons\ofxImGui\libs\imgui\backends</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\backends\imgui_impl_opengl2.h">
+			<Filter>addons\ofxImGui\libs\imgui\backends</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\backends\imgui_impl_opengl3.h">
+			<Filter>addons\ofxImGui\libs\imgui\backends</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\backends\imgui_impl_opengl3_loader.h">
+			<Filter>addons\ofxImGui\libs\imgui\backends</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\extras\imgui_stdlib.h">
+			<Filter>addons\ofxImGui\libs\imgui\extras</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\src\imgui.h">
+			<Filter>addons\ofxImGui\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\src\imgui_internal.h">
+			<Filter>addons\ofxImGui\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\src\imstb_rectpack.h">
+			<Filter>addons\ofxImGui\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\src\imstb_textedit.h">
+			<Filter>addons\ofxImGui\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxImGui\libs\imgui\src\imstb_truetype.h">
+			<Filter>addons\ofxImGui\libs\imgui\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxXmlSettings\src\ofxXmlSettings.h">
+			<Filter>addons\ofxXmlSettings\src</Filter>
+		</ClInclude>
+		<ClInclude Include="C:\Users\maxch\OneDrive\Documents\IMD\2024-2025\Sensor-Based Interaction\of_v0.12.0_vs_release\of_v0.12.0_vs_release\addons\ofxXmlSettings\libs\tinyxml.h">
+			<Filter>addons\ofxXmlSettings\libs</Filter>
+		</ClInclude>
+	</ItemGroup>
+	<ItemGroup>
+		<ResourceCompile Include="icon.rc" />
+	</ItemGroup>
+</Project>
