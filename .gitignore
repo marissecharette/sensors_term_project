@@ -13,3 +13,4 @@
 *.db
 .vs/term_project/v17/.suo
 .vs/sensors_term_project/v17/Solution.VC.db-shm
+*.vsidx
